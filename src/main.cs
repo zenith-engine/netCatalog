@@ -58,7 +58,7 @@ namespace zenith
             }
             catch (Exception ex)
             {
-                throw new InvalidOperationException($"Erreur lors de la décompression du fichier : {ex.Message}", ex);
+                throw new InvalidOperationException($"Error : {ex.Message}", ex);
             }
         }
     }
